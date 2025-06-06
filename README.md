@@ -1,4 +1,4 @@
-# AI News Digest Agent
+# News Digest AI Agent
 
 An AI-powered news digest generator that creates daily summaries of news articles using PydanticAI agents.
 
