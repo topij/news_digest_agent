@@ -1,0 +1,21 @@
+name: pydantic-news-agent
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - requests>=2.32.3
+  - python-dotenv>=1.1.0
+  - rich>=14.0.0
+  - ipykernel>=6.29.5
+  - ipython>=8.37.0
+  - jupyter_client>=8.6.3
+  - pip:
+    # Core dependencies not available in conda
+    - pydantic>=2.11.5
+    - pydantic-ai>=0.2.14
+    - newsapi-python>=0.2.7
+    
+    # Optional logging and monitoring
+    - logfire>=3.18.0 

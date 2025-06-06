@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "newws_digest_agent"
+version = "0.1.1"
+description = "News digest agent that fetches headlines and produces concise summaries using PydanticAI."
+authors = [{ name = "Topi Järvinen", email = "topi.jarvinen@gmail.com" }]
+requires-python = ">=3.10"
+
+dependencies = [
+  "pydantic-ai>=0.2",
+  "pydantic>=2",
+  "newsapi-python",
+  "requests",
+  "python-dotenv",
+]
+
+[tool.setuptools.packages.find]
+include = ["news_digest_agent*"]
