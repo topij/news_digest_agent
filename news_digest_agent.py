@@ -1,5 +1,5 @@
 """
-news_digest_agent.py – AI-powered news digest generator.
+news_digest_agent.py – AI-powered news digest generator using PydanticAI.
 
 This script creates a daily digest of AI-related news articles by:
 1. Fetching recent articles from NewsAPI
